@@ -26,9 +26,15 @@
 }
 
 .logo {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: 0.7s;
+}
+
+.logo:hover {
+    transform: scale(1.04);
 }
 
 .logo__text {
@@ -45,10 +51,15 @@
 }
 
 .menu__link {
+    cursor: pointer;
     font-weight: 500;
     font-size: 20px;
     color: #2c2d35;
     list-style: none;
+    transition: 0.7s;
+}
+.menu__link:hover {
+    transform: scale(1.04);
 }
 
 .banner {
@@ -175,6 +186,7 @@
 }
 
 .reproductions__card__btn {
+    cursor: pointer;
     margin-top: 20px;
     border: 1px solid #598d66;
     padding: 20px 60px;
@@ -183,6 +195,10 @@
     font-weight: 500;
     font-size: 20px;
     color: #598d66;
+    transition: 0.7s;
+}
+.reproductions__card__btn:hover {
+    background-color: #D4E8D9;
 }
 
 .back_collection {
@@ -218,6 +234,7 @@
 }
 
 .collection__btn {
+    cursor: pointer;
     margin-top: 60px;
     cursor: pointer;
     padding: 20px 60px;
@@ -226,7 +243,12 @@
     font-weight: 500;
     font-size: 20px;
     color: #2c2d35;
+    transition: 0.7s;
 }
+.collection__btn:hover {
+    background: #d9b949;
+}
+
 
 .command {
     padding-top: 70px;
