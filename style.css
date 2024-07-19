@@ -270,8 +270,10 @@
 }
 
 .footer__row {
+    justify-content: space-between;
     box-sizing: border-box;
     padding: 23px 0px;
+    display: flex;
 }
 .footer__left{
     display: flex;
@@ -288,5 +290,31 @@
 .footer__text{
     font-weight: 500;
     font-size: 18px;
+    color: #86928b;
+}
+.footer__menu__li_black{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+}
+.footer__menu__li{
+    padding-top: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928b;
+}
+.footer__menu{
+   list-style: none;
+}
+.messangers{
+    display: flex;
+    gap: 30px;
+}
+.footer__text_mini{
+    padding-top: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
     color: #86928b;
 }
