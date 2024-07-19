@@ -271,5 +271,22 @@
 
 .footer__row {
     box-sizing: border-box;
-    padding: 0 23px;
+    padding: 23px 0px;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    justify-content: space-between;
+}
+.footer__phone{}
+.footer__number{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c2d35;
+}
+.footer__text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928b;
 }
