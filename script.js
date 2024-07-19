@@ -8,6 +8,7 @@ button.addEventListener('click', function() {
 const francBtn = document.querySelector('.franc_btn');
 const germanBtn = document.querySelector('.german_btn');
 const englandBtn = document.querySelector('.england_btn');
+const all = document.querySelector('.all_btn');
 const francCards = document.querySelectorAll('.franc');
 const germanCards = document.querySelectorAll('.german');
 const englandCards = document.querySelectorAll('.england');
@@ -29,3 +30,9 @@ englandBtn.addEventListener('click', () => {
   germanCards.forEach(card => card.style.display = 'none');
   englandCards.forEach(card => card.style.display = 'block');
 });
+
+all.addEventListener('click', () => {
+    francCards.forEach(card => card.style.display = 'block');
+    germanCards.forEach(card => card.style.display = 'block');
+    englandCards.forEach(card => card.style.display = 'block');
+  });
